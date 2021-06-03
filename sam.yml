@@ -22,7 +22,7 @@ Resources:
           REGION: !Sub ${AWS::Region}
           ACCOUNT_ID: !Sub ${AWS::AccountId}
       Handler: index.handler
-      Runtime: nodejs10.x
+      Runtime: nodejs14.x
       CodeUri: ./
       MemorySize: 128
       Timeout: 30
